@@ -14,5 +14,6 @@ vim.cmd[[
   Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
   Plug 'kdheepak/lazygit.nvim'
   Plug 'neovim/nvim-lspconfig'
+  Plug 'nvimtools/none-ls.nvim' " (Formerly null-ls) Integrate formatters and linters
   call plug#end()
 ]]

@@ -6,6 +6,7 @@ require('config.lsp')
 require('config.lazygit')
 require('config.treesitter')
 require('config.autocmp')
+require('config.prettier')
 vim.opt.number = true
 
 -- Set Space as leader (most common)
