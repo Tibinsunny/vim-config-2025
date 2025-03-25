@@ -1,4 +1,5 @@
 require'lspconfig'.ts_ls.setup{}
+require'lspconfig'.pyright.setup{} -- Use Pyright
 local cmp = require'cmp'
 cmp.setup({
   mapping = {
