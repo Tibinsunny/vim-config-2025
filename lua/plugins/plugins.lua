@@ -15,5 +15,8 @@ vim.cmd[[
   Plug 'kdheepak/lazygit.nvim'
   Plug 'neovim/nvim-lspconfig'
   Plug 'nvimtools/none-ls.nvim' " (Formerly null-ls) Integrate formatters and linters
+  Plug 'tmsvg/pear-tree'
+  Plug 'vim-autoformat/vim-autoformat'
+  Plug 'machakann/vim-highlightedyank'
   call plug#end()
 ]]
